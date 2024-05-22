@@ -29,78 +29,78 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 body.dark h3{
 	color: #fff;
 }
-body.dark .grax_tm_topbar .logo .dark{display: none;}
-body.dark .grax_tm_topbar .logo .light{display: block;}
-body.dark .grax_tm_topbar.animate{
+body.dark .RIFAT_tm_topbar .logo .dark{display: none;}
+body.dark .RIFAT_tm_topbar .logo .light{display: block;}
+body.dark .RIFAT_tm_topbar.animate{
 	background-color: #000;
 	box-shadow: 0px 0px 10px rgb(255 255 255 / 10%);
 }
-body.dark .grax_tm_topbar .menu ul li a{
+body.dark .RIFAT_tm_topbar .menu ul li a{
 	color: #fff;
 }
-body.dark .grax_tm_about{
+body.dark .RIFAT_tm_about{
 	background-color: transparent;
 }
-body.dark .grax_tm_about .right .list ul li span{
+body.dark .RIFAT_tm_about .right .list ul li span{
 	color: #fff;
 }
-body.dark .grax_tm_about .right .list ul li .svg{
+body.dark .RIFAT_tm_about .right .list ul li .svg{
 	color: #fff;
 }
-body.dark .grax_tm_button a:hover{
+body.dark .RIFAT_tm_button a:hover{
 	color: #fff;
 }
-body.dark .grax_tm_about .left .main{
+body.dark .RIFAT_tm_about .left .main{
 	box-shadow: none;
 }
-body.dark .grax_tm_portfolio{
+body.dark .RIFAT_tm_portfolio{
 	background-color: #111;
 }
 body.dark .overlay_effect:after{
 	background-color: #111;
 }
-body.dark .grax_tm_portfolio .overlay{
+body.dark .RIFAT_tm_portfolio .overlay{
 	background-color: #111;
 }
-body.dark .grax_tm_news{
+body.dark .RIFAT_tm_news{
 	background-color: #111;
 }
-body.dark .grax_tm_news .news_list ul li .details .title a{
+body.dark .RIFAT_tm_news .news_list ul li .details .title a{
 	color: #fff;
 }
-body.dark .grax_tm_news .news_list ul li .details .date{
+body.dark .RIFAT_tm_news .news_list ul li .details .date{
 	color: #bbb;
 }
-body.dark .grax_tm_news .news_list ul li .details .date a{
+body.dark .RIFAT_tm_news .news_list ul li .details .date a{
 	color: #bbb;
 }
-body.dark .grax_tm_modalbox_news .details .title{
+body.dark .RIFAT_tm_modalbox_news .details .title{
 	color: #000;
 }
-body.dark .grax_tm_modalbox_news .description p{
+body.dark .RIFAT_tm_modalbox_news .description p{
 	color: #767676;
 }
-body.dark .grax_tm_contact .fields ul li input{
+body.dark .RIFAT_tm_contact .fields ul li input{
 	border: 1px solid rgba(255,255,255,.2);
 	background-color: transparent;
 	color: #fff;
 }
-body.dark .grax_tm_contact .fields .last textarea{
+body.dark .RIFAT_tm_contact .fields .last textarea{
 	border: 1px solid rgba(255,255,255,.2);
 	background-color: transparent;
 	color: #fff;
 }
-body.dark .grax_tm_contact .info_list ul li span{
+body.dark .RIFAT_tm_contact .info_list ul li span{
 	color: #fff;
 }
 
-body.dark .grax_tm_contact .info_list ul li .svg{
+body.dark .RIFAT_tm_contact .info_list ul li .svg{
 	color: #fff;
 }
-body.dark .grax_tm_contact .info_list ul li a:hover{
+body.dark .RIFAT_tm_contact .info_list ul li a:hover{
 	color: #fff !important;
 }
-body.dark .grax_tm_copyright{
+body.dark .RIFAT_tm_copyright{
 	background-color: #111;
 	padding-top: 95px;
 }

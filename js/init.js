@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Marketify
- * Author: Marketify
+ * Copyright (c) 2022 RIFAT Web Solutions
+ * Author: RIFAT Web Solutions
  * This file is made for CURRENT TEMPLATE
 */
 
@@ -11,35 +11,35 @@ jQuery(document).ready(function(){
 	
 	// here all ready functions
 	
-	grax_tm_modalbox_news();
-	grax_tm_popupscroll();
-	grax_tm_ripple();
-	grax_tm_color_switcher();
-	grax_tm_switcher_opener();
-	grax_tm_cursor_switcher();
-	grax_tm_videoplayer();
-	grax_tm_hero_title();
-	grax_tm_wavefy();
-	grax_tm_nav_bg();
-	grax_tm_anchor();
-	grax_tm_down();
-	grax_tm_hamburger();
-	grax_tm_cursor();
-	grax_tm_imgtosvg();
-	grax_tm_popup();
-	grax_tm_data_images();
-	grax_tm_contact_form();
-	grax_tm_parallax_effect();
-	grax_tm_totop();
+	RIFAT_tm_modalbox_news();
+	RIFAT_tm_popupscroll();
+	RIFAT_tm_ripple();
+	RIFAT_tm_color_switcher();
+	RIFAT_tm_switcher_opener();
+	RIFAT_tm_cursor_switcher();
+	RIFAT_tm_videoplayer();
+	RIFAT_tm_hero_title();
+	RIFAT_tm_wavefy();
+	RIFAT_tm_nav_bg();
+	RIFAT_tm_anchor();
+	RIFAT_tm_down();
+	RIFAT_tm_hamburger();
+	RIFAT_tm_cursor();
+	RIFAT_tm_imgtosvg();
+	RIFAT_tm_popup();
+	RIFAT_tm_data_images();
+	RIFAT_tm_contact_form();
+	RIFAT_tm_parallax_effect();
+	RIFAT_tm_totop();
 	
 	jQuery(window).load('body', function(){
-		grax_tm_my_load();
+		RIFAT_tm_my_load();
 	});
 	jQuery(window).on('resize', function(){
-		grax_tm_modalbox_news();
+		RIFAT_tm_modalbox_news();
 	});
 	jQuery(window).on('scroll', function(){
-		grax_tm_progress_line();
+		RIFAT_tm_progress_line();
 	});
 	
 });
@@ -52,18 +52,18 @@ jQuery(document).ready(function(){
 // -------------  MODALBOX NEWS  -------------------
 // -------------------------------------------------
 
-function grax_tm_modalbox_news(){
+function RIFAT_tm_modalbox_news(){
 	
 	"use strict";
 	
-	var modalBox	= jQuery('.grax_tm_modalbox_news');
-	var list 		= jQuery('.grax_tm_news .news_list ul li');
+	var modalBox	= jQuery('.RIFAT_tm_modalbox_news');
+	var list 		= jQuery('.RIFAT_tm_news .news_list ul li');
 	var closePopup	= modalBox.find('.close');
 	
 	list.each(function(){
 		var element 	= jQuery(this);
 		var details 	= element.find('.list_inner').html();
-		var buttons 	= element.find('.details .title a,.grax_tm_full_link');
+		var buttons 	= element.find('.details .title a,.RIFAT_tm_full_link');
 		var mainImage	= element.find('.main');
 		var imgData		= mainImage.data('img-url');
 		var title		= element.find('.title');
@@ -92,7 +92,7 @@ function grax_tm_modalbox_news(){
 // -------------    WIDGET MENU SCROLL -----------------
 // -----------------------------------------------------
 
-function grax_tm_popupscroll(){
+function RIFAT_tm_popupscroll(){
 	
 	"use strict";
 	
@@ -100,7 +100,7 @@ function grax_tm_popupscroll(){
 	var H				= jQuery(window).height();
 	var scrollable		= jQuery('.scrollable');
 	
-	var popupBox		= jQuery('.grax_tm_modalbox_news .description_wrap');
+	var popupBox		= jQuery('.RIFAT_tm_modalbox_news .description_wrap');
 	
 	if(WW >= 1200){
 		popupBox.css({height:H-140});
@@ -133,7 +133,7 @@ function grax_tm_popupscroll(){
 // -------------  RIPPLE  --------------------------
 // -------------------------------------------------
 
-function grax_tm_ripple(){
+function RIFAT_tm_ripple(){
 	
 	"use strict";
 	
@@ -148,25 +148,25 @@ function grax_tm_ripple(){
 // ---------------------   SWITCHERS    ----------------
 // -----------------------------------------------------
 
-function grax_tm_color_switcher(){
+function RIFAT_tm_color_switcher(){
 	
 	"use strict";
 
-	var list	= jQuery('.grax_tm_settings .colors li a');
+	var list	= jQuery('.RIFAT_tm_settings .colors li a');
 
 	list.on('click',function(){
 		var element = jQuery(this);
 		var elval	= element.attr('class');
-		element.closest('.grax_tm_all_wrap').attr('data-color',''+elval+'');
+		element.closest('.RIFAT_tm_all_wrap').attr('data-color',''+elval+'');
 		return false;
 	});	
 }
 
-function grax_tm_switcher_opener(){
+function RIFAT_tm_switcher_opener(){
 	
 	"use strict";
 	
-	var settings	= jQuery('.grax_tm_settings');
+	var settings	= jQuery('.RIFAT_tm_settings');
 	var button		= settings.find('.link');
 	var direction	= settings.find('.direction li a');
 	var light		= settings.find('.direction li a.light');
@@ -176,10 +176,10 @@ function grax_tm_switcher_opener(){
 		var element = jQuery(this);
 		if(element.hasClass('opened')){
 			element.removeClass('opened');
-			element.closest('.grax_tm_settings').removeClass('opened');
+			element.closest('.RIFAT_tm_settings').removeClass('opened');
 		}else{
 			element.addClass('opened');
-			element.closest('.grax_tm_settings').addClass('opened');
+			element.closest('.RIFAT_tm_settings').addClass('opened');
 		}
 		return false;
 	});
@@ -195,28 +195,28 @@ function grax_tm_switcher_opener(){
 	dark.on('click',function(){
 		var el = jQuery(this);
 		jQuery('body').addClass('dark');
-		jQuery('.grax_tm_partners').addClass('opened');
-		el.closest('.grax_tm_settings').addClass('changed');
+		jQuery('.RIFAT_tm_partners').addClass('opened');
+		el.closest('.RIFAT_tm_settings').addClass('changed');
 		return false;
 	});
 
 	light.on('click',function(){
 		var ele = jQuery(this);
 		jQuery('body').removeClass('dark');
-		jQuery('.grax_tm_partners').removeClass('opened');
-		ele.closest('.grax_tm_settings').removeClass('changed');
+		jQuery('.RIFAT_tm_partners').removeClass('opened');
+		ele.closest('.RIFAT_tm_settings').removeClass('changed');
 		return false;
 	});
 }
 
-function grax_tm_cursor_switcher(){
+function RIFAT_tm_cursor_switcher(){
 
 	"use strict";
 	
-	var wrapper		= jQuery('.grax_tm_all_wrap');
-	var button		= jQuery('.grax_tm_settings .cursor li a');
-	var show		= jQuery('.grax_tm_settings .cursor li a.show');
-	var hide		= jQuery('.grax_tm_settings .cursor li a.hide');
+	var wrapper		= jQuery('.RIFAT_tm_all_wrap');
+	var button		= jQuery('.RIFAT_tm_settings .cursor li a');
+	var show		= jQuery('.RIFAT_tm_settings .cursor li a.show');
+	var hide		= jQuery('.RIFAT_tm_settings .cursor li a.hide');
 
 	button.on('click',function(){
 		var element = jQuery(this);
@@ -238,7 +238,7 @@ function grax_tm_cursor_switcher(){
 // -------------  VIDEO PLAYER ---------------------
 // -------------------------------------------------
 
-function grax_tm_videoplayer(){
+function RIFAT_tm_videoplayer(){
 	"use strict";
 	$(".youtube-bg").mb_YTPlayer();
 }
@@ -247,7 +247,7 @@ function grax_tm_videoplayer(){
 // ---------------   MY WAYPOINT    --------------------
 // -----------------------------------------------------
 
-function grax_tm_my_waypoint(){
+function RIFAT_tm_my_waypoint(){
 	
 	"use strict";
 	
@@ -270,7 +270,7 @@ function grax_tm_my_waypoint(){
 // -----------------   HERO TITLE    -------------------
 // -----------------------------------------------------
 
-function grax_tm_hero_title(){
+function RIFAT_tm_hero_title(){
 	
 	"use strict";
 	
@@ -297,7 +297,7 @@ function grax_tm_hero_title(){
 	 });
 }
 
-function grax_tm_hero_title_fade(){
+function RIFAT_tm_hero_title_fade(){
 	"use strict";
 	
 	var mySpan	= jQuery('.fn_animation .character');
@@ -310,8 +310,8 @@ function grax_tm_hero_title_fade(){
 		a		= i*speed;
 	});
 	setTimeout(function(){
-		jQuery('.grax_tm_topbar').addClass('opened');
-		jQuery('.grax_tm_down').addClass('opened');
+		jQuery('.RIFAT_tm_topbar').addClass('opened');
+		jQuery('.RIFAT_tm_down').addClass('opened');
 	},a+wait);
 }
 
@@ -319,20 +319,20 @@ function grax_tm_hero_title_fade(){
 // -----------------   MY LOAD    ----------------------
 // -----------------------------------------------------
 
-function grax_tm_my_load(){
+function RIFAT_tm_my_load(){
 	
 	"use strict";
 	
-	grax_tm_my_waypoint();
-	setTimeout(function(){grax_tm_preloader();},1000);
-	setTimeout(function(){grax_tm_hero_title_fade();},3000);
+	RIFAT_tm_my_waypoint();
+	setTimeout(function(){RIFAT_tm_preloader();},1000);
+	setTimeout(function(){RIFAT_tm_hero_title_fade();},3000);
 }
 
 // -----------------------------------------------------
 // ------------------   WAVIFY   -----------------------
 // -----------------------------------------------------
 
-function grax_tm_wavefy(){
+function RIFAT_tm_wavefy(){
 	"use strict";
 		
 	jQuery('#wave_img').wavify({
@@ -348,7 +348,7 @@ function grax_tm_wavefy(){
 // ---------------   PRELOADER   -----------------------
 // -----------------------------------------------------
 
-function grax_tm_preloader(){
+function RIFAT_tm_preloader(){
 	
 	"use strict";
 	
@@ -372,13 +372,13 @@ function grax_tm_preloader(){
 // --------------   TOPBAR BACKGROUND    ---------------
 // -----------------------------------------------------
 
-function grax_tm_nav_bg(){
+function RIFAT_tm_nav_bg(){
 	
 	"use strict";
 
 	jQuery(window).on('scroll',function(){
 		var progress	 	= jQuery('.progressbar');
-		var topbar	 		= jQuery('.grax_tm_topbar');
+		var topbar	 		= jQuery('.RIFAT_tm_topbar');
 		var WinOffset		= jQuery(window).scrollTop();
 
 		if(WinOffset >= 100){
@@ -395,7 +395,7 @@ function grax_tm_nav_bg(){
 // -----------  ANCHOR NAVIGATION ------------------
 // -------------------------------------------------
 
-function grax_tm_anchor(){
+function RIFAT_tm_anchor(){
 	
 	"use strict";
 	
@@ -406,11 +406,11 @@ function grax_tm_anchor(){
 // -----------------    DOWN    ------------------------
 // -----------------------------------------------------
 
-function grax_tm_down(){
+function RIFAT_tm_down(){
 	
 	"use strict";
 	
-	jQuery('.grax_tm_talk .button a').on('click',function(){
+	jQuery('.RIFAT_tm_talk .button a').on('click',function(){
 		if($.attr(this, 'href') !== '#'){
 			$('html, body').animate({
 				scrollTop: $($.attr(this, 'href')).offset().top-70
@@ -424,12 +424,12 @@ function grax_tm_down(){
 // ---------------   MOBILE MENU    --------------------
 // -----------------------------------------------------
 
-function grax_tm_hamburger(){
+function RIFAT_tm_hamburger(){
 		
 	"use strict";
 		
 	var hamburger 		= jQuery('.hamburger');
-	var mobileMenu		= jQuery('.grax_tm_mobile_menu .dropdown');
+	var mobileMenu		= jQuery('.RIFAT_tm_mobile_menu .dropdown');
 	
 	hamburger.on('click',function(){
 		var element 	= jQuery(this);
@@ -444,9 +444,9 @@ function grax_tm_hamburger(){
 		return false;
 	});
 	
-	jQuery('.grax_tm_mobile_menu .dropdown .dropdown_inner ul li a').on('click',function(){
+	jQuery('.RIFAT_tm_mobile_menu .dropdown .dropdown_inner ul li a').on('click',function(){
 		jQuery('.hamburger').removeClass('is-active');
-		jQuery('.grax_tm_mobile_menu .dropdown').slideUp();
+		jQuery('.RIFAT_tm_mobile_menu .dropdown').slideUp();
 		return false;
 	});
 }
@@ -455,7 +455,7 @@ function grax_tm_hamburger(){
 // ------------------   CURSOR    ----------------------
 // -----------------------------------------------------
 
-function grax_tm_cursor(){
+function RIFAT_tm_cursor(){
     "use strict";
 	
 	var myCursor	= jQuery('.mouse-cursor');
@@ -481,7 +481,7 @@ function grax_tm_cursor(){
 // ---------------    IMAGE TO SVG    ------------------
 // -----------------------------------------------------
 
-function grax_tm_imgtosvg(){
+function RIFAT_tm_imgtosvg(){
 	
 	"use strict";
 	
@@ -515,7 +515,7 @@ function grax_tm_imgtosvg(){
 // --------------------   POPUP    ---------------------
 // -----------------------------------------------------
 
-function grax_tm_popup(){
+function RIFAT_tm_popup(){
 	
 	"use strict";
 
@@ -557,7 +557,7 @@ wow.init();
 // ---------------   DATA IMAGES    --------------------
 // -----------------------------------------------------
 
-function grax_tm_data_images(){
+function RIFAT_tm_data_images(){
 	
 	"use strict";
 	
@@ -574,7 +574,7 @@ function grax_tm_data_images(){
 // ----------------    CONTACT FORM    -----------------
 // -----------------------------------------------------
 
-function grax_tm_contact_form(){
+function RIFAT_tm_contact_form(){
 	
 	"use strict";
 	
@@ -620,7 +620,7 @@ function grax_tm_contact_form(){
 // -------------    PARALLAX ANIMATION    --------------
 // -----------------------------------------------------
 
-function grax_tm_parallax_effect(){
+function RIFAT_tm_parallax_effect(){
 
 	"use strict";
 
@@ -676,7 +676,7 @@ $(".glitch").mgGlitch({
 	glitch2TimeMax: 100
 });
 
-function grax_tm_progress_line(){
+function RIFAT_tm_progress_line(){
 	
 	"use strict";
 	
@@ -694,7 +694,7 @@ function grax_tm_progress_line(){
 /********** TOTOP ***********/ 
 /****************************/ 
 
-function grax_tm_totop(){
+function RIFAT_tm_totop(){
   
   "use strict";
   

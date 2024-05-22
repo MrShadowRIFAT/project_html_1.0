@@ -1,28 +1,28 @@
 @charset "utf-8";
 /*
-/*	Copyright (c) 2022 Marketify
-/*	Author: Marketify
+/*	Copyright (c) 2022 RIFAT Web Solutions
+/*	Author: RIFAT Web Solutions
 /*	This file is made for CURRENT TEMPLATE
 
 
-01) GRAX BASE
-02) GRAX TOPBAR
-03) GRAX MOBILE MENU
-04) GRAX HERO
-05) GRAX ABOUT
-06) GRAX PORTFOLIO
-07) GRAX TALK
-08) GRAX NEWS
-09) GRAX CONTACT
-10) GRAX COPYRIGHT
-11) GRAX CURSOR
-12) GRAX PARTICLE EFFECT
-13) GRAX GLITCH EFFECT
-14) GRAX MEDIA QUERIES (FOR SMALL DEVIVES)
+01) RIFAT BASE
+02) RIFAT TOPBAR
+03) RIFAT MOBILE MENU
+04) RIFAT HERO
+05) RIFAT ABOUT
+06) RIFAT PORTFOLIO
+07) RIFAT TALK
+08) RIFAT NEWS
+09) RIFAT CONTACT
+10) RIFAT COPYRIGHT
+11) RIFAT CURSOR
+12) RIFAT PARTICLE EFFECT
+13) RIFAT GLITCH EFFECT
+14) RIFAT MEDIA QUERIES (FOR SMALL DEVIVES)
 
 
 /*---------------------------------------------------*/
-/*	01) GRAX BASE
+/*	01) RIFAT BASE
 /*---------------------------------------------------*/
 
 html {
@@ -96,20 +96,20 @@ h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
 
-.grax_tm_all_wrap{
+.RIFAT_tm_all_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.grax_tm_all_wrap,
-.grax_tm_all_wrap *{
+.RIFAT_tm_all_wrap,
+.RIFAT_tm_all_wrap *{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.grax_tm_section{
+.RIFAT_tm_section{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -234,10 +234,10 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	02) GRAX TOPBAR
+/*	02) RIFAT TOPBAR
 /*---------------------------------------------------*/
 
-.grax_tm_topbar{
+.RIFAT_tm_topbar{
 	left: 0px;
 	right: 0px;
 	position: fixed;
@@ -251,15 +251,15 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_topbar.opened{
+.RIFAT_tm_topbar.opened{
 	transform: translateY(0);
 }
-.grax_tm_topbar.animate{
+.RIFAT_tm_topbar.animate{
 	background-color: #fff;
 	padding: 25px 0px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.1);
 }
-.grax_tm_topbar .topbar_inner{
+.RIFAT_tm_topbar .topbar_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -267,36 +267,36 @@ h6 { font-size: 16px; }
 	align-items: center;
 	justify-content: space-between;
 }
-.grax_tm_topbar .logo .dark{display: none;}
-.grax_tm_topbar.animate .logo .dark{display: block;}
-.grax_tm_topbar.animate .logo .light{display: none;}
-.grax_tm_topbar .logo img{max-width: 100px;}
-.grax_tm_topbar .logo a{display: inline-block;}
-.grax_tm_topbar .menu ul{
+.RIFAT_tm_topbar .logo .dark{display: none;}
+.RIFAT_tm_topbar.animate .logo .dark{display: block;}
+.RIFAT_tm_topbar.animate .logo .light{display: none;}
+.RIFAT_tm_topbar .logo img{max-width: 100px;}
+.RIFAT_tm_topbar .logo a{display: inline-block;}
+.RIFAT_tm_topbar .menu ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.grax_tm_topbar .menu ul li{
+.RIFAT_tm_topbar .menu ul li{
 	margin: 0px 30px 0px 0px;
 	display: inline-block;
 }
-.grax_tm_topbar .menu ul li:last-child{margin-right: 0px;}
-.grax_tm_topbar .menu ul li a{
+.RIFAT_tm_topbar .menu ul li:last-child{margin-right: 0px;}
+.RIFAT_tm_topbar .menu ul li a{
 	text-decoration: none;
 	color: #fff;
 	font-family: "Poppins";
 	font-weight: 500;
 	transition: all .3s ease;
 }
-.grax_tm_topbar .menu ul li.current a{color: #e54b4b;}
-.grax_tm_topbar .menu ul li a:hover{color: #e54b4b;}
-.grax_tm_topbar.animate .menu ul li a{color: #000;}
+.RIFAT_tm_topbar .menu ul li.current a{color: #e54b4b;}
+.RIFAT_tm_topbar .menu ul li a:hover{color: #e54b4b;}
+.RIFAT_tm_topbar.animate .menu ul li a{color: #000;}
 
 /*---------------------------------------------------*/
-/*	03) GRAX MOBILE MENU
+/*	03) RIFAT MOBILE MENU
 /*---------------------------------------------------*/
 
-.grax_tm_mobile_menu{
+.RIFAT_tm_mobile_menu{
 	width: 100%;
 	height: auto;
 	position: relative;
@@ -305,7 +305,7 @@ h6 { font-size: 16px; }
 	display: none;
 	z-index: 10;
 }
-.grax_tm_mobile_menu .topbar_inner{
+.RIFAT_tm_mobile_menu .topbar_inner{
 	width: 100%;
 	height: auto;
 	float: left;
@@ -314,7 +314,7 @@ h6 { font-size: 16px; }
 	padding: 20px 0px;
 	border-bottom: 1px solid rgba(0,0,0,.2);
 }
-.grax_tm_mobile_menu .topbar_in{
+.RIFAT_tm_mobile_menu .topbar_in{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -417,7 +417,7 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_mobile_menu .dropdown{
+.RIFAT_tm_mobile_menu .dropdown{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -426,23 +426,23 @@ h6 { font-size: 16px; }
 	border-bottom: 1px solid rgba(0,0,0,.2);
 	display: none;
 }
-.grax_tm_mobile_menu .dropdown .dropdown_inner{
+.RIFAT_tm_mobile_menu .dropdown .dropdown_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 25px 0px;
 }
-.grax_tm_mobile_menu .dropdown .dropdown_inner ul{
+.RIFAT_tm_mobile_menu .dropdown .dropdown_inner ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.grax_tm_mobile_menu .dropdown .dropdown_inner ul li{
+.RIFAT_tm_mobile_menu .dropdown .dropdown_inner ul li{
 	margin: 0px;
 	float: left;
 	width: 100%;
 }
-.grax_tm_mobile_menu .dropdown .dropdown_inner ul li a{
+.RIFAT_tm_mobile_menu .dropdown .dropdown_inner ul li a{
 	text-decoration: none;
 	color: #000;
 	display: inline-block;
@@ -450,13 +450,13 @@ h6 { font-size: 16px; }
 	font-family: "Montserrat";
 	font-weight: 500;
 }
-.grax_tm_mobile_menu .logo img{max-width: 70px;}
+.RIFAT_tm_mobile_menu .logo img{max-width: 70px;}
 
 /*---------------------------------------------------*/
-/*	04) GRAX HERO
+/*	04) RIFAT HERO
 /*---------------------------------------------------*/
 
-.grax_tm_hero{
+.RIFAT_tm_hero{
 	width: 100%;
 	height: 100vh;
 	clear: both;
@@ -471,17 +471,17 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_hero.creative{clip-path: none;}
-.grax_tm_hero.creative.shape{clip-path:none;}
-.grax_tm_hero.shape{clip-path: polygon(0 0, 100% 0, 100% 83%, 25% 100%, 0 83%);}
-.grax_tm_hero .bg{
+.RIFAT_tm_hero.creative{clip-path: none;}
+.RIFAT_tm_hero.creative.shape{clip-path:none;}
+.RIFAT_tm_hero.shape{clip-path: polygon(0 0, 100% 0, 100% 83%, 25% 100%, 0 83%);}
+.RIFAT_tm_hero .bg{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 }
-.grax_tm_hero .bg .image{
+.RIFAT_tm_hero .bg .image{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -491,7 +491,7 @@ h6 { font-size: 16px; }
 	background-size: cover;
 	background-position: center;
 }
-.grax_tm_hero .bg .overlay{
+.RIFAT_tm_hero .bg .overlay{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -500,42 +500,42 @@ h6 { font-size: 16px; }
 	z-index: 1;
 	background-color: rgba(0,0,0,.2);
 }
-.grax_tm_hero .content{
+.RIFAT_tm_hero .content{
 	width: 100%;
 	height: 100%;
 	float: left;
 	position: relative;
 	z-index: 2;
 }
-.grax_tm_hero .container{height: 100%;}
-.grax_tm_hero .details{
+.RIFAT_tm_hero .container{height: 100%;}
+.RIFAT_tm_hero .details{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	z-index: 5;
 }
-.grax_tm_hero .name{
+.RIFAT_tm_hero .name{
 	font-size: 72px;
 	font-weight: 700;
 	color: #fff;
 	margin-bottom: 11px;
 }
 
-.grax_tm_hero .details[data-animation="toTop"] .fn_animation .character{top: 15px;}
-.grax_tm_hero .details[data-animation="toTop"] .fn_animation .character.opened{top: 0px;}
+.RIFAT_tm_hero .details[data-animation="toTop"] .fn_animation .character{top: 15px;}
+.RIFAT_tm_hero .details[data-animation="toTop"] .fn_animation .character.opened{top: 0px;}
 
-.grax_tm_hero .details[data-animation="toRight"] .fn_animation .character{right: 15px;}
-.grax_tm_hero .details[data-animation="toRight"] .fn_animation .character.opened{right: 0px;}
+.RIFAT_tm_hero .details[data-animation="toRight"] .fn_animation .character{right: 15px;}
+.RIFAT_tm_hero .details[data-animation="toRight"] .fn_animation .character.opened{right: 0px;}
 
-.grax_tm_hero .details[data-animation="scale"] .fn_animation .character{
+.RIFAT_tm_hero .details[data-animation="scale"] .fn_animation .character{
 	opacity: 1;
 	visibility: visible;
 	transform: scale(0);
 }
-.grax_tm_hero .details[data-animation="scale"] .fn_animation .character.opened{transform: scale(1);}
+.RIFAT_tm_hero .details[data-animation="scale"] .fn_animation .character.opened{transform: scale(1);}
 
-.grax_tm_hero .details[data-animation="rotate"] .fn_animation .character{transform: rotate(30deg);}
-.grax_tm_hero .details[data-animation="rotate"] .fn_animation .character.opened{transform: rotate(0);}
+.RIFAT_tm_hero .details[data-animation="rotate"] .fn_animation .character{transform: rotate(30deg);}
+.RIFAT_tm_hero .details[data-animation="rotate"] .fn_animation .character.opened{transform: rotate(0);}
 
 .fn_animation{opacity: 0;}
 .fn_animation.ready{opacity: 1;}
@@ -563,7 +563,7 @@ h6 { font-size: 16px; }
 	     -o-transition: all .4s ease;
 	        transition: all .4s ease;
 }
-.grax_tm_hero .job{
+.RIFAT_tm_hero .job{
 	color: #ddd;
 	letter-spacing: 1.5px;
 	font-family: "Poppins";
@@ -573,20 +573,20 @@ h6 { font-size: 16px; }
 	max-width: 400px;
 	font-style: italic;
 }
-.grax_tm_down{
+.RIFAT_tm_down{
 	position: absolute;
 	z-index: 7;
 	bottom: 5%;
 	display: none;
 }
-.grax_tm_down.opened{display: block;}
-.grax_tm_down[data-position="left"]{left: 0px;}
-.grax_tm_down[data-position="right"]{right: 0px;}
-.grax_tm_down[data-position="center"]{
+.RIFAT_tm_down.opened{display: block;}
+.RIFAT_tm_down[data-position="left"]{left: 0px;}
+.RIFAT_tm_down[data-position="right"]{right: 0px;}
+.RIFAT_tm_down[data-position="center"]{
 	left:50%;
 	transform: translateX(-50%);
 }
-.grax_tm_down .line_wrapper{
+.RIFAT_tm_down .line_wrapper{
 	position: absolute;
     width: 1px;
     height: 100%;
@@ -604,13 +604,13 @@ h6 { font-size: 16px; }
     -o-transition: all .7s;
     transition: all .7s;
 }
-.grax_tm_down .line_wrapper{
+.RIFAT_tm_down .line_wrapper{
     width: 1px;
     height: 50px;
     background: none;
 	display: block;
 }
-.grax_tm_down .line_wrapper:before{
+.RIFAT_tm_down .line_wrapper:before{
 	content: "";
 	background-color: #000;
 	width: 1px;
@@ -641,13 +641,13 @@ h6 { font-size: 16px; }
     transform-origin: bottom;
   }
 }
-.grax_tm_down[data-skin="light"] .line_wrapper:before{background-color: #fff;}
+.RIFAT_tm_down[data-skin="light"] .line_wrapper:before{background-color: #fff;}
 
 /*---------------------------------------------------*/
-/*	05) GRAX ABOUT
+/*	05) RIFAT ABOUT
 /*---------------------------------------------------*/
 
-.grax_tm_about{
+.RIFAT_tm_about{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -656,23 +656,23 @@ h6 { font-size: 16px; }
 	margin-bottom: 150px;
 	padding-top: 150px;
 }
-.grax_tm_about .about_inner{
+.RIFAT_tm_about .about_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	align-items: center;
 }
-.grax_tm_about .left{
+.RIFAT_tm_about .left{
 	width: 40%;
 	padding-right: 50px;
 }
-.grax_tm_about .left .image{position: relative;}
-.grax_tm_about .left .image img{
+.RIFAT_tm_about .left .image{position: relative;}
+.RIFAT_tm_about .left .image img{
 	opacity: 0;
 	min-width: 100%;
 }
-.grax_tm_about .left .main{
+.RIFAT_tm_about .left .main{
 	position: absolute !important;
 	top: 0px;
 	bottom: 0px;
@@ -684,33 +684,33 @@ h6 { font-size: 16px; }
 	border-radius: 5px;
 	box-shadow: 0px 0px 40px rgb(0 0 0 / 20%);
 }
-.grax_tm_about .right{
+.RIFAT_tm_about .right{
 	width: 60%;
 	padding-left: 50px;
 }
-.grax_tm_about .right .text{
+.RIFAT_tm_about .right .text{
 	width: 100%;
 	float: left;
 	padding-top: 27px;
 	padding-bottom: 28px;
 }
-.grax_tm_about .right .list{
+.RIFAT_tm_about .right .list{
 	width: 100%;
 	float: left;
 	margin-bottom: 27px;
 }
-.grax_tm_about .right .list ul{
+.RIFAT_tm_about .right .list ul{
 	margin: 0px 0px 0px -20px;
 	list-style-type: none;
 }
-.grax_tm_about .right .list ul li{
+.RIFAT_tm_about .right .list ul li{
 	margin: 0px 0px 13px 0px;
 	float: left;
 	width: 50%;
 	position: relative;
 	padding-left: 20px;
 }
-.grax_tm_about .right .list ul li .list_inner{
+.RIFAT_tm_about .right .list ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -718,13 +718,13 @@ h6 { font-size: 16px; }
 	position: relative;
 	padding-left: 30px;
 }
-.grax_tm_about .right .list ul li span{
+.RIFAT_tm_about .right .list ul li span{
 	font-family: "Poppins";
 	font-weight: 600;
 	color: #000;
 	font-style: italic;
 }
-.grax_tm_about .right .list ul li .svg{
+.RIFAT_tm_about .right .list ul li .svg{
 	width: 15px;
 	height: 15px;
 	position: absolute;
@@ -734,13 +734,13 @@ h6 { font-size: 16px; }
 	color: #000;
 	margin-top: -1px;
 }
-.grax_tm_button{
+.RIFAT_tm_button{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.grax_tm_button a{
+.RIFAT_tm_button a{
 	text-decoration: none;
     color: #fff;
     display: inline-block;
@@ -755,32 +755,32 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_button a:hover{
+.RIFAT_tm_button a:hover{
 	background-color: transparent !important;
 	color: #000;
 }
-.grax_tm_progress_part{
+.RIFAT_tm_progress_part{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 135px 0px 140px 0px;
 }
-.grax_tm_progress_part .part_inner{
+.RIFAT_tm_progress_part .part_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 }
-.grax_tm_progress_part .left{
+.RIFAT_tm_progress_part .left{
 	width: 50%;
 	padding-right: 50px;
 }
-.grax_tm_progress_part .left h3{
+.RIFAT_tm_progress_part .left h3{
 	font-weight: 600;
 	margin-bottom: 27px;
 }
-.grax_tm_progress_part .right{
+.RIFAT_tm_progress_part .right{
 	width: 50%;
 	padding-left: 50px;
 }
@@ -836,23 +836,23 @@ h6 { font-size: 16px; }
 @keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 
 /*---------------------------------------------------*/
-/*	06) GRAX PORTFOLIO
+/*	06) RIFAT PORTFOLIO
 /*---------------------------------------------------*/
 
-.grax_tm_title_holder{
+.RIFAT_tm_title_holder{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.grax_tm_title_holder span{color: #e54b4b;	}
-.grax_tm_title_holder h3{
+.RIFAT_tm_title_holder span{color: #e54b4b;	}
+.RIFAT_tm_title_holder h3{
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 10px;
 	
 }
-.grax_tm_portfolio{
+.RIFAT_tm_portfolio{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -860,24 +860,24 @@ h6 { font-size: 16px; }
 	padding: 140px 0px 100px 0px;
 	background-color: #f9f9f9;
 }
-.grax_tm_portfolio .portfolio_list{
+.RIFAT_tm_portfolio .portfolio_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 90px;
 }
-.grax_tm_portfolio ul{
+.RIFAT_tm_portfolio ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.grax_tm_portfolio ul li{
+.RIFAT_tm_portfolio ul li{
 	margin: 0px 0px 50px 0px;
 	float: left;
 	width: 33.3333%;
 	padding-left: 50px;
 }
-.grax_tm_portfolio ul li .list_inner{
+.RIFAT_tm_portfolio ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -886,12 +886,12 @@ h6 { font-size: 16px; }
 	border-radius: 5px;
 	overflow: hidden;
 }
-.grax_tm_portfolio .image{position: relative;}
-.grax_tm_portfolio .image img{
+.RIFAT_tm_portfolio .image{position: relative;}
+.RIFAT_tm_portfolio .image img{
 	min-width: 100%;
 	opacity: 0;
 }
-.grax_tm_portfolio .image .main{
+.RIFAT_tm_portfolio .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -902,7 +902,7 @@ h6 { font-size: 16px; }
 	background-position: center;
 	border-radius: 5px;
 }
-.grax_tm_portfolio .overlay{
+.RIFAT_tm_portfolio .overlay{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -921,11 +921,11 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_portfolio ul li .list_inner:hover .overlay{
+.RIFAT_tm_portfolio ul li .list_inner:hover .overlay{
 	opacity: 1;
 	visibility: visible;
 }
-.grax_tm_portfolio .details{
+.RIFAT_tm_portfolio .details{
 	position: absolute;
 	bottom: 20px;
 	left: 30px;
@@ -940,17 +940,17 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_portfolio ul li .list_inner:hover .details{
+.RIFAT_tm_portfolio ul li .list_inner:hover .details{
 	opacity: 1;
 	visibility: visible;
 	bottom: 30px;
 }
-.grax_tm_portfolio .details span{font-family: "Poppins";}
-.grax_tm_portfolio .details h3{
+.RIFAT_tm_portfolio .details span{font-family: "Poppins";}
+.RIFAT_tm_portfolio .details h3{
 	font-size: 18px;
 	font-weight: 600;
 }
-.grax_tm_full_link{
+.RIFAT_tm_full_link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1016,10 +1016,10 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	07) GRAX TALK
+/*	07) RIFAT TALK
 /*---------------------------------------------------*/
 
-.grax_tm_talk{
+.RIFAT_tm_talk{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1027,7 +1027,7 @@ h6 { font-size: 16px; }
 	padding: 102px 20px 105px 20px;
 	position: relative;
 }
-.grax_tm_talk:before{
+.RIFAT_tm_talk:before{
 	position: absolute;
     content: "";
 	top: 0px;
@@ -1039,7 +1039,7 @@ h6 { font-size: 16px; }
     opacity: 1; /**  If you choose lighter pattern image as background please Decrease opacity  **/
     z-index: 2;
 }
-.grax_tm_talk:after{
+.RIFAT_tm_talk:after{
 	position: absolute;
     content: "";
     top: 0px;
@@ -1049,7 +1049,7 @@ h6 { font-size: 16px; }
    	background-color: #000;
    	z-index: 1;
 }
-.grax_tm_talk .talk_inner{
+.RIFAT_tm_talk .talk_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1059,13 +1059,13 @@ h6 { font-size: 16px; }
 	position: relative;
 	z-index: 3;
 }
-.grax_tm_talk .text{padding-right: 20px;}
-.grax_tm_talk .text h3{
+.RIFAT_tm_talk .text{padding-right: 20px;}
+.RIFAT_tm_talk .text h3{
 	font-weight: 600;
 	color: #fff;
 }
-.grax_tm_talk .text h3 span{position: relative;}
-.grax_tm_talk .text h3 span:before{
+.RIFAT_tm_talk .text h3 span{position: relative;}
+.RIFAT_tm_talk .text h3 span:before{
 	position: absolute;
 	content: "";
 	width: 20px;
@@ -1093,11 +1093,11 @@ h6 { font-size: 16px; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
-.grax_tm_talk .text p{
+.RIFAT_tm_talk .text p{
 	font-family: "Poppins";
 }
 
-.grax_tm_talk .button a{
+.RIFAT_tm_talk .button a{
 	color: #fff;
 	text-decoration: none;
 	font-family: "Poppins";
@@ -1106,7 +1106,7 @@ h6 { font-size: 16px; }
 	display: inline-block;
 }
 
-.grax_tm_talk .button a:before{
+.RIFAT_tm_talk .button a:before{
 	content: '';
     width: 100%;
     height: 2px;
@@ -1116,7 +1116,7 @@ h6 { font-size: 16px; }
     bottom: 0;
     background: rgba(255,255,255,.2);
 }
-.grax_tm_talk .button a:after{
+.RIFAT_tm_talk .button a:after{
 	content: '';
     width: 0;
     height: 1px;
@@ -1127,17 +1127,17 @@ h6 { font-size: 16px; }
     transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
     background: currentColor;
 }
-.grax_tm_talk .button a:hover:after{
+.RIFAT_tm_talk .button a:hover:after{
 	width:100%;
 	left:0;
 	right:auto;
 }
 
 /*---------------------------------------------------*/
-/*	08) GRAX NEWS
+/*	08) RIFAT NEWS
 /*---------------------------------------------------*/
 
-.grax_tm_news{
+.RIFAT_tm_news{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1145,41 +1145,41 @@ h6 { font-size: 16px; }
 	background-color: #f9f9f9;
 	padding: 140px 0px 90px 0px;
 }
-.grax_tm_news .news_list{
+.RIFAT_tm_news .news_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 90px;
 }
-.grax_tm_news .news_list ul{
+.RIFAT_tm_news .news_list ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
 }
-.grax_tm_news .news_list ul li{
+.RIFAT_tm_news .news_list ul li{
 	margin: 0px 0px 50px 0px;
 	float: left;
 	width: 33.3333%;
 	padding-left: 50px;
 }
-.grax_tm_news .news_list ul li .list_inner{
+.RIFAT_tm_news .news_list ul li .list_inner{
 	width: 100%;
 	height: 100%;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.grax_tm_news .news_list ul li .image{
+.RIFAT_tm_news .news_list ul li .image{
 	position: relative;
 	overflow: hidden;
 }
-.grax_tm_news .news_list ul li .image img{
+.RIFAT_tm_news .news_list ul li .image img{
 	min-width: 100%;
 	opacity: 0;
 }
-.grax_tm_news .news_list ul li .image .main{
+.RIFAT_tm_news .news_list ul li .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1197,15 +1197,15 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_news .news_list ul li .list_inner .image:hover .main{transform: scale(1.1) rotate(3deg);}
-.grax_tm_news .news_list ul li .details{
+.RIFAT_tm_news .news_list ul li .list_inner .image:hover .main{transform: scale(1.1) rotate(3deg);}
+.RIFAT_tm_news .news_list ul li .details{
 	width: 100%;
 	float: left;
 	padding-right: 15px;
 	padding-top: 32px;
 }
-.grax_tm_news .news_list ul li .details .title{margin-bottom: 10px;}
-.grax_tm_news .news_list ul li .details .title a{
+.RIFAT_tm_news .news_list ul li .details .title{margin-bottom: 10px;}
+.RIFAT_tm_news .news_list ul li .details .title a{
 	text-decoration: none;
 	color: #000;
 	font-size: 18px;
@@ -1218,15 +1218,15 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_news .news_list ul li .details .title a:hover{color: #e54b4b;}
-.grax_tm_news .news_list ul li .details .date{
+.RIFAT_tm_news .news_list ul li .details .title a:hover{color: #e54b4b;}
+.RIFAT_tm_news .news_list ul li .details .date{
 	text-transform: uppercase;
 	font-family: "Poppins";
 	font-size: 12px;
 	color: #767676;
 	font-style: italic;
 }
-.grax_tm_news .news_list ul li .details .date a{
+.RIFAT_tm_news .news_list ul li .details .date a{
 	text-decoration: none;
 	color: #767676;
 	
@@ -1236,12 +1236,12 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_news .news_list ul li .details .date a:hover{color: #e54b4b;}
-.grax_tm_news .news_list ul li .details .date span{
+.RIFAT_tm_news .news_list ul li .details .date a:hover{color: #e54b4b;}
+.RIFAT_tm_news .news_list ul li .details .date span{
 	position: relative;
 	margin-left: 11px;
 }
-.grax_tm_news .news_list ul li .details .date span:before{
+.RIFAT_tm_news .news_list ul li .details .date span:before{
 	position: absolute;
 	content: "";
 	margin-top: 1px;
@@ -1253,7 +1253,7 @@ h6 { font-size: 16px; }
 	height: 9px;
 	margin-right: 7px;
 }
-.grax_tm_news .description{
+.RIFAT_tm_news .description{
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
@@ -1263,7 +1263,7 @@ h6 { font-size: 16px; }
 body.modal{
 	overflow-y: hidden;
 }
-.grax_tm_modalbox_news{
+.RIFAT_tm_modalbox_news{
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -1275,14 +1275,14 @@ body.modal{
 	visibility: hidden;
 	transition: all .3s ease;
 }
-.grax_tm_modalbox_news.opened{
+.RIFAT_tm_modalbox_news.opened{
 	opacity: 1;
 	visibility: visible;
 }
-.grax_tm_modalbox_news .container{
+.RIFAT_tm_modalbox_news .container{
 	height: 100vh;
 }
-.grax_tm_modalbox_news .box_inner{
+.RIFAT_tm_modalbox_news .box_inner{
 	position: absolute;
 	top: 70px;
 	bottom: 70px;
@@ -1297,27 +1297,27 @@ body.modal{
 	transition: all .3s ease;
 	transition-delay: .3s;
 }
-.grax_tm_modalbox_news.opened .box_inner{
+.RIFAT_tm_modalbox_news.opened .box_inner{
 	opacity: 1;
 	visibility: visible;
 	margin-top: 0px;
 }
-.grax_tm_modalbox_news .close{
+.RIFAT_tm_modalbox_news .close{
 	position: fixed;
 	left: 100%;
 	top: 0px;
 	margin-left: 40px;
 	z-index: 111111;
 }
-.grax_tm_modalbox_news .close a{
+.RIFAT_tm_modalbox_news .close a{
 	text-decoration: none;
 	color: #fff;
 }
-.grax_tm_modalbox_news .close .svg{
+.RIFAT_tm_modalbox_news .close .svg{
 	width: 50px;
 	height: 50px;
 }
-.grax_tm_modalbox_news .description_wrap{
+.RIFAT_tm_modalbox_news .description_wrap{
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -1325,35 +1325,35 @@ body.modal{
 	overflow: hidden;
 	padding: 50px;
 }
-.grax_tm_modalbox_news .details{
+.RIFAT_tm_modalbox_news .details{
 	width: 100%;
 	float: left;
 	margin-bottom: 30px;
 }
-.grax_tm_modalbox_news .description{
+.RIFAT_tm_modalbox_news .description{
 	width: 100%;
 	float: left;
 }
-.grax_tm_modalbox_news .description p{
+.RIFAT_tm_modalbox_news .description p{
 	margin-bottom: 15px;
 }
-.grax_tm_modalbox_news .description blockquote{
+.RIFAT_tm_modalbox_news .description blockquote{
 	font-style: italic;
 	color: #000;
 	border-left: 2px solid #e54b4b;
 	padding-left: 20px;
 	margin-bottom: 15px;
 }
-.grax_tm_modalbox_news .description_wrap .image{
+.RIFAT_tm_modalbox_news .description_wrap .image{
 	position: relative;
 	max-height: 450px;
 	z-index: -1;
 	margin-bottom: 40px;
 }
-.grax_tm_modalbox_news .description_wrap .image img{
+.RIFAT_tm_modalbox_news .description_wrap .image img{
 	min-width: 100%;
 }
-.grax_tm_modalbox_news .description_wrap .image .main{
+.RIFAT_tm_modalbox_news .description_wrap .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1364,18 +1364,18 @@ body.modal{
 	background-size: cover;
 	border-radius: 5px;
 }
-.grax_tm_modalbox_news .details .title{
+.RIFAT_tm_modalbox_news .details .title{
 	font-weight: 600;
 	margin-bottom: 5px;
 }
-.grax_tm_modalbox_news .date{
+.RIFAT_tm_modalbox_news .date{
 	text-transform: uppercase;
     font-family: "Poppins";
     font-size: 12px;
     color: #767676;
     font-style: italic;
 }
-.grax_tm_modalbox_news .date a{
+.RIFAT_tm_modalbox_news .date a{
 	text-decoration: none;
     color: #767676;
 	
@@ -1385,12 +1385,12 @@ body.modal{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.grax_tm_modalbox_news .date a:hover{color: #e54b4b;}
-.grax_tm_modalbox_news .date span{
+.RIFAT_tm_modalbox_news .date a:hover{color: #e54b4b;}
+.RIFAT_tm_modalbox_news .date span{
 	position: relative;
     margin-left: 11px;
 }
-.grax_tm_modalbox_news .date span:before{
+.RIFAT_tm_modalbox_news .date span:before{
 	position: absolute;
     content: "";
     margin-top: 0px;
@@ -1402,30 +1402,30 @@ body.modal{
     height: 9px;
     margin-right: 7px;
 }
-.grax_tm_modalbox_news .share{
+.RIFAT_tm_modalbox_news .share{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	align-items: center;
 }
-.grax_tm_modalbox_news .share span{
+.RIFAT_tm_modalbox_news .share span{
 	font-family: "Poppins";
 	color: #000;
 	font-weight: 600;
 	display: inline-block;
 	padding-right: 20px;
 }
-.grax_tm_modalbox_news .share ul{
+.RIFAT_tm_modalbox_news .share ul{
 	margin: 0px;
 	list-style-type: none;
 }
 
-.grax_tm_modalbox_news .share ul li{
+.RIFAT_tm_modalbox_news .share ul li{
 	margin: 0px 10px 0px 0px;
 	display: inline-block;
 }
-.grax_tm_modalbox_news .share ul li a{
+.RIFAT_tm_modalbox_news .share ul li a{
 	text-decoration: none;
 	color: #000;
 }
@@ -1443,10 +1443,10 @@ body.modal{
 
 
 /*---------------------------------------------------*/
-/*	09) GRAX CONTACT
+/*	09) RIFAT CONTACT
 /*---------------------------------------------------*/
 
-.grax_tm_contact{
+.RIFAT_tm_contact{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1455,38 +1455,38 @@ body.modal{
 	margin-bottom: 110px;
 	padding-top: 140px;
 }
-.grax_tm_contact .contact_inner{
+.RIFAT_tm_contact .contact_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	padding-top: 77px;
 }
-.grax_tm_contact .left{
+.RIFAT_tm_contact .left{
 	width: 50%;
 }
-.grax_tm_contact .left .text{
+.RIFAT_tm_contact .left .text{
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
 }
-.grax_tm_contact .info_list{
+.RIFAT_tm_contact .info_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.grax_tm_contact .info_list ul{
+.RIFAT_tm_contact .info_list ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.grax_tm_contact .info_list li{
+.RIFAT_tm_contact .info_list li{
 	margin: 0px 0px 18px 0px;
 	float: left;
 	width: 100%;
 	position: relative;
 }
-.grax_tm_contact .info_list ul li .list_inner{
+.RIFAT_tm_contact .info_list ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1494,28 +1494,28 @@ body.modal{
 	position: relative;
 	padding-left: 27px;
 }
-.grax_tm_contact .info_list ul li span.first{
+.RIFAT_tm_contact .info_list ul li span.first{
 	min-width: 100px;
 	display: inline-block;
 }
-.grax_tm_contact .info_list ul li span.second{
+.RIFAT_tm_contact .info_list ul li span.second{
 	font-weight: 400 !important;
 	color: inherit !important;
 }
-.grax_tm_contact .info_list ul li span{
+.RIFAT_tm_contact .info_list ul li span{
 	font-family: "Poppins";
 	font-weight: 600;
 	color: #000;
 }
-.grax_tm_contact .info_list ul li a{
+.RIFAT_tm_contact .info_list ul li a{
 	text-decoration: none;
 	color: inherit !important;
 	transition: all .3s ease;
 	display: inline-block;
 	position: relative;
 }
-.grax_tm_contact .info_list ul li a:hover{color: #000;}
-.grax_tm_contact .info_list ul li a:after{
+.RIFAT_tm_contact .info_list ul li a:hover{color: #000;}
+.RIFAT_tm_contact .info_list ul li a:after{
 	content: '';
     width: 0;
     height: 1px;
@@ -1526,13 +1526,13 @@ body.modal{
     transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
     background: currentColor;
 }
-.grax_tm_contact .info_list ul li a:hover:after{
+.RIFAT_tm_contact .info_list ul li a:hover:after{
 	width:100%;
 	left:0;
 	right:auto;
 }
-.grax_tm_contact .info_list ul li a:hover{color: #000 !important;}
-.grax_tm_contact .info_list ul li .svg{
+.RIFAT_tm_contact .info_list ul li a:hover{color: #000 !important;}
+.RIFAT_tm_contact .info_list ul li .svg{
 	width: 15px;
 	height: 15px;
 	position: absolute;
@@ -1542,40 +1542,40 @@ body.modal{
 	color: #000;
 	margin-top: -1px;
 }
-.grax_tm_contact .right{
+.RIFAT_tm_contact .right{
 	width: 50%;
 	padding-left: 50px;
 }
-.grax_tm_contact .fields{
+.RIFAT_tm_contact .fields{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.grax_tm_contact .fields .first{
+.RIFAT_tm_contact .fields .first{
 	width: 100%;
 	float: left;
 }
-.grax_tm_contact .fields ul{
+.RIFAT_tm_contact .fields ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.grax_tm_contact .fields ul li{
+.RIFAT_tm_contact .fields ul li{
 	width: 100%;
 	margin: 0px 0px 30px 0px;
 	float: left;
 }
-.grax_tm_contact .fields ul li input{
+.RIFAT_tm_contact .fields ul li input{
 	width: 100%;
 	border: 1px solid rgba(0,0,0,.2);
 	background-color: #fff;
 	border-radius: 5px;
 }
-.grax_tm_contact .fields ul li input:focus{
+.RIFAT_tm_contact .fields ul li input:focus{
 	outline: none;
 	border: 1px solid rgba(0,0,0,.5);
 }
-.grax_tm_contact .fields .last textarea{
+.RIFAT_tm_contact .fields .last textarea{
 	width: 100%;
 	border: 1px solid rgba(0,0,0,.2);
 	height: 120px;
@@ -1584,38 +1584,38 @@ body.modal{
 	background-color: #fff;
 	border-radius: 5px;
 }
-.grax_tm_contact .fields .last textarea:focus{
+.RIFAT_tm_contact .fields .last textarea:focus{
 	outline: none;
 	border: 1px solid rgba(0,0,0,.5);
 } 
-.grax_tm_contact .empty_notice{
+.RIFAT_tm_contact .empty_notice{
 	color: #F52225;
 	margin-bottom: 7px;
 	display: none;
 	text-align: left;
 	font-weight: 500;
 }
-.grax_tm_contact .contact_error{
+.RIFAT_tm_contact .contact_error{
 	color: #F52225;
 	text-align: left;
 	font-weight: 500;
 }
-.grax_tm_contact .returnmessage{
+.RIFAT_tm_contact .returnmessage{
 	color:#3A00FF;
 	margin-bottom: 7px;
 	text-align: left;
 	font-weight: 500;
 }
-.grax_tm_contact .grax_tm_button a{
+.RIFAT_tm_contact .RIFAT_tm_button a{
 	display: block;
 	text-align: center;
 }
 
 /*---------------------------------------------------*/
-/*	10) GRAX COPYRIGHT
+/*	10) RIFAT COPYRIGHT
 /*---------------------------------------------------*/
 
-.grax_tm_copyright{
+.RIFAT_tm_copyright{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1624,7 +1624,7 @@ body.modal{
 	padding: 130px 0px 100px 0px;
 	position: relative;
 }
-.grax_tm_copyright .copyright_inner{
+.RIFAT_tm_copyright .copyright_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1632,32 +1632,32 @@ body.modal{
 	align-items: center;
 	justify-content: space-between;
 }
-.grax_tm_copyright .logo img{max-width: 100px;}
-.grax_tm_copyright .social ul{
+.RIFAT_tm_copyright .logo img{max-width: 100px;}
+.RIFAT_tm_copyright .social ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.grax_tm_copyright .social ul li{
+.RIFAT_tm_copyright .social ul li{
 	margin: 0px 25px 0px 0px;
 	display: inline-block;
 }
-.grax_tm_copyright .social ul li:last{margin-right: 0px;}
-.grax_tm_copyright .social ul li a{
+.RIFAT_tm_copyright .social ul li:last{margin-right: 0px;}
+.RIFAT_tm_copyright .social ul li a{
 	text-decoration: none;
 	color: #fff;
 }
-.grax_tm_copyright .social .svg{
+.RIFAT_tm_copyright .social .svg{
 	width: 17px;
 	height: 17px;
 }
-.grax_tm_copyright .copy p{
+.RIFAT_tm_copyright .copy p{
 	text-transform: uppercase;
 	color: #fff;
 	font-family: "Poppins";
 	font-weight: 500;
 	font-size: 14px;
 }
-.grax_tm_copyright .copy a{
+.RIFAT_tm_copyright .copy a{
 	text-decoration: none;
 	color: #fff;
 }
@@ -1676,7 +1676,7 @@ body.modal{
 }
 
 /*---------------------------------------------------*/
-/*	11) GRAX CURSOR
+/*	11) RIFAT CURSOR
 /*---------------------------------------------------*/
 
 .mouse-cursor{
@@ -1721,7 +1721,7 @@ body.modal{
   transition: all .08s ease-out;
 }
 .cursor-outer.cursor-hover{opacity: 0;}
-.grax_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor{
+.RIFAT_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor{
 	display: none;
 	opacity: 0;
 	visibility: hidden;
@@ -1730,10 +1730,10 @@ body.modal{
 }
 
 /*---------------------------------------------------*/
-/*	12) GRAX PARTICLE EFFECT
+/*	12) RIFAT PARTICLE EFFECT
 /*---------------------------------------------------*/
 
-.grax_tm_hero .particle_wrapper{
+.RIFAT_tm_hero .particle_wrapper{
 	position: relative;
 	float: left;
 	width: 100%;
@@ -1747,10 +1747,10 @@ body.modal{
 }
 
 /*---------------------------------------------------*/
-/*	13) GRAX GLITCH EFFECT
+/*	13) RIFAT GLITCH EFFECT
 /*---------------------------------------------------*/
 
-.grax_tm_hero .glitch_wrap{
+.RIFAT_tm_hero .glitch_wrap{
 	position: relative;
 	width: 100%;
 	height:100%;
@@ -1780,7 +1780,7 @@ body.modal{
 	right: 0px;
 }
 
-.grax_tm_hero .ripple{
+.RIFAT_tm_hero .ripple{
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -1789,7 +1789,7 @@ body.modal{
 	background-position: center;
 	background-image: url(..//img/slider/2.jpg);
 }
-.grax_tm_hero .ripple:before{
+.RIFAT_tm_hero .ripple:before{
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -1812,7 +1812,7 @@ body.modal{
 	width: 100%;
 	height: 100%;
 }
-.grax_tm_down.shape{
+.RIFAT_tm_down.shape{
 	bottom: 20%;
 }
 .my_shape svg{
@@ -1862,7 +1862,7 @@ body.modal{
 /*  WAXON SETTINGS
 /*---------------------------------------------------*/
 
-.grax_tm_settings{
+.RIFAT_tm_settings{
 	position: fixed;
 	z-index: 20;
 	top: 20%;
@@ -1877,29 +1877,29 @@ body.modal{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_settings.opened{
+.RIFAT_tm_settings.opened{
 	right: 0px;
 }
-.grax_tm_settings .wrapper{
+.RIFAT_tm_settings .wrapper{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.grax_tm_settings .icon{
+.RIFAT_tm_settings .icon{
 	position: absolute;
 	top: 0px;
 	right: 100%;
 	background-color: #000;
 	padding: 12px 12px 4px 12px;
 }
-.grax_tm_settings .icon .svg{
+.RIFAT_tm_settings .icon .svg{
 	color: #fff;
 	width: 25px;
 	height: 25px;
 	animation: fa-spin 2s infinite linear;
 }
-.grax_tm_settings .link{
+.RIFAT_tm_settings .link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1928,14 +1928,14 @@ body.modal{
         transform: rotate(359deg);
     }
 }
-.grax_tm_settings .title{
+.RIFAT_tm_settings .title{
 	color: #fff;
 	font-family: "Montserrat";
 	font-weight: 600;
 	position: relative;
 	display: inline-block;
 }
-.grax_tm_settings .title:before{
+.RIFAT_tm_settings .title:before{
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -1944,111 +1944,111 @@ body.modal{
 	left: 0px;
 	bottom: 0px;
 }
-.grax_tm_settings .colors{
+.RIFAT_tm_settings .colors{
 	margin: 0px 0px 22px 0px;
 	list-style-type: none;
 	padding-top: 32px;
 }
-.grax_tm_settings .colors li{
+.RIFAT_tm_settings .colors li{
 	margin: 0px;
 	display: inline-block;
 }
-.grax_tm_settings .colors li a{
+.RIFAT_tm_settings .colors li a{
 	text-decoration: none;
 	display: inline-block;
 	width: 30px;
 	height: 30px;
 	border-radius: 100%;
 }
-.grax_tm_settings .direction{
+.RIFAT_tm_settings .direction{
 	list-style-type: none;
 	margin: 0px 0px 20px 0px;
 }
-.grax_tm_settings .direction li{
+.RIFAT_tm_settings .direction li{
 	margin: 0px 20px 0px 0px;
 	display: inline-block;
 }
-.grax_tm_settings .direction li a{
+.RIFAT_tm_settings .direction li a{
 	opacity: .4;
 	text-decoration: none;
 	color: #fff; 
 }
-.grax_tm_settings .direction li a.active{
+.RIFAT_tm_settings .direction li a.active{
 	opacity: 1;
 }
-.grax_tm_settings .direction li .svg{
+.RIFAT_tm_settings .direction li .svg{
 	width: 25px;
 	height: 25px;
 }
-.grax_tm_settings .colors li.bl{
+.RIFAT_tm_settings .colors li.bl{
 	display: inline-block;
 }
-.grax_tm_settings .colors li.wh{
+.RIFAT_tm_settings .colors li.wh{
 	display: none;
 }
-body.dark .grax_tm_settings .colors li.bl,
-.grax_tm_settings.changed .colors li.bl{
+body.dark .RIFAT_tm_settings .colors li.bl,
+.RIFAT_tm_settings.changed .colors li.bl{
 	display: none;
 }
-body.dark .grax_tm_settings .colors li.wh,
-.grax_tm_settings.changed .colors li.wh{
+body.dark .RIFAT_tm_settings .colors li.wh,
+.RIFAT_tm_settings.changed .colors li.wh{
 	display: inline-block;
 }
-body.dark .grax_tm_settings,
-.grax_tm_settings.changed{
+body.dark .RIFAT_tm_settings,
+.RIFAT_tm_settings.changed{
 	background-color: #fff;
 }
-body.dark .grax_tm_settings .icon,
-.grax_tm_settings.changed .icon{
+body.dark .RIFAT_tm_settings .icon,
+.RIFAT_tm_settings.changed .icon{
 	background-color: #fff;
 }
-body.dark .grax_tm_settings .icon .svg,
-.grax_tm_settings.changed .icon .svg{
+body.dark .RIFAT_tm_settings .icon .svg,
+.RIFAT_tm_settings.changed .icon .svg{
 	color: #000;
 }
-body.dark .grax_tm_settings .title,
-.grax_tm_settings.changed .title{
+body.dark .RIFAT_tm_settings .title,
+.RIFAT_tm_settings.changed .title{
 	color: #000;
 }
-body.dark .grax_tm_settings .title:before,
-.grax_tm_settings.changed .title:before{
+body.dark .RIFAT_tm_settings .title:before,
+.RIFAT_tm_settings.changed .title:before{
 	background-color: rgba(0,0,0,.5);
 }
-body.dark .grax_tm_settings .direction li a,
-.grax_tm_settings.changed .direction li a{
+body.dark .RIFAT_tm_settings .direction li a,
+.RIFAT_tm_settings.changed .direction li a{
 	color: #000;
 }
-body.dark .grax_tm_settings .cursor li:nth-child(1) a,
-.grax_tm_settings.changed .cursor li:nth-child(1) a{
+body.dark .RIFAT_tm_settings .cursor li:nth-child(1) a,
+.RIFAT_tm_settings.changed .cursor li:nth-child(1) a{
 	border-color: #000;
 }
-body.dark .grax_tm_settings .cursor li:nth-child(1) a:before,
-.grax_tm_settings.changed .cursor li:nth-child(1) a:before{
+body.dark .RIFAT_tm_settings .cursor li:nth-child(1) a:before,
+.RIFAT_tm_settings.changed .cursor li:nth-child(1) a:before{
 	background-color: #000;
 }
-body.dark .grax_tm_settings .cursor li .svg,
-.grax_tm_settings.changed .cursor li .svg{
+body.dark .RIFAT_tm_settings .cursor li .svg,
+.RIFAT_tm_settings.changed .cursor li .svg{
 	color: #000;
 }
-.grax_tm_settings .cursor{
+.RIFAT_tm_settings .cursor{
 	margin: 0px;
 	list-style-type: none;
 	padding-top: 15px;
 }
-.grax_tm_settings .cursor li{
+.RIFAT_tm_settings .cursor li{
 	margin: 0px 20px 0px 0px;
 	display: inline-block;
 }
-.grax_tm_settings .cursor li a{
+.RIFAT_tm_settings .cursor li a{
 	text-decoration: none;
 	color: #fff;
 	opacity: .4;
 	font-weight: 600;
 }
-.grax_tm_settings .cursor li a.showme{
+.RIFAT_tm_settings .cursor li a.showme{
 	opacity: 1;
 }
-.grax_tm_settings .cursor li:nth-child(1) a{
+.RIFAT_tm_settings .cursor li:nth-child(1) a{
 	width: 30px;
 	height: 30px;
 	border-radius: 100%;
@@ -2056,7 +2056,7 @@ body.dark .grax_tm_settings .cursor li .svg,
 	position: relative;
 	display: inline-block;
 }
-.grax_tm_settings .cursor li:nth-child(1) a:before{
+.RIFAT_tm_settings .cursor li:nth-child(1) a:before{
 	position: absolute;
 	content: "";
 	width: 4px;
@@ -2067,22 +2067,22 @@ body.dark .grax_tm_settings .cursor li .svg,
 	left: 50%;
 	top: 50%;
 }
-.grax_tm_settings .cursor li .svg{
+.RIFAT_tm_settings .cursor li .svg{
 	width: 25px;
 	height: 25px;
 	color: #fff;
 }
-.grax_tm_settings .cursor li:nth-child(2){
+.RIFAT_tm_settings .cursor li:nth-child(2){
 	position: relative;
 	top: -2px;
 }
-.grax_tm_settings .effect{
+.RIFAT_tm_settings .effect{
 	margin: 0px;
 	list-style-type: none;
 	padding-top: 15px;
 	padding-bottom: 25px;
 }
-.grax_tm_settings .effect li{
+.RIFAT_tm_settings .effect li{
 	margin: 0px 0px 5px 0px;
 	display: inline-block;
 	width: 30px;
@@ -2093,7 +2093,7 @@ body.dark .grax_tm_settings .cursor li .svg,
 	background-color: #fff;
 	opacity: .4;
 }
-.grax_tm_settings .effect li a{
+.RIFAT_tm_settings .effect li a{
 	text-decoration: none;
 	color: #000;
 	font-size: 13px;
@@ -2103,16 +2103,16 @@ body.dark .grax_tm_settings .cursor li .svg,
 	position: relative;
 	top: 2px;
 }
-.grax_tm_settings .effect li.selected{
+.RIFAT_tm_settings .effect li.selected{
 	background-color: #fff;
 	opacity: 1;
 }
 
 /*---------------------------------------------------*/
-/*	GRAX INTRO
+/*	RIFAT INTRO
 /*---------------------------------------------------*/
 
-.grax_tm_intro_hero{
+.RIFAT_tm_intro_hero{
 	width: 100%;
 	height: 100vh;
 	float: left;
@@ -2120,7 +2120,7 @@ body.dark .grax_tm_settings .cursor li .svg,
 	position: relative;
 	margin-bottom: 150px;
 }
-.grax_tm_intro_hero:before{
+.RIFAT_tm_intro_hero:before{
 	position: absolute;
     content: "";
 	top: 0px;
@@ -2132,7 +2132,7 @@ body.dark .grax_tm_settings .cursor li .svg,
     opacity: .4; 
     z-index: 2;
 }
-.grax_tm_intro_hero:after{
+.RIFAT_tm_intro_hero:after{
 	position: absolute;
     content: "";
     top: 0px;
@@ -2142,7 +2142,7 @@ body.dark .grax_tm_settings .cursor li .svg,
    	background-color: #000;
    	z-index: 1;
 }
-.grax_tm_intro_hero .content{
+.RIFAT_tm_intro_hero .content{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -2151,7 +2151,7 @@ body.dark .grax_tm_settings .cursor li .svg,
 	padding: 0px 20px;
 	text-align: center;
 }
-.grax_tm_intro_hero .content .name{
+.RIFAT_tm_intro_hero .content .name{
 	font-size: 50px;
 	font-weight: 800;
 	color: #fff;
@@ -2159,41 +2159,41 @@ body.dark .grax_tm_settings .cursor li .svg,
 	letter-spacing: 10px;
 	margin-bottom: 20px;
 }
-.grax_tm_intro_hero .content p{
+.RIFAT_tm_intro_hero .content p{
 	color: #fff;
 	font-size: 20px;
 	letter-spacing: 2px;
 	font-family: "Poppins";
 	font-weight: 500;
 }
-.grax_tm_intro_hero .grax_tm_down{
+.RIFAT_tm_intro_hero .RIFAT_tm_down{
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: 5.5%;
 }
-.grax_tm_intro_hero .fn_animation .character{top: 15px;}
-.grax_tm_intro_hero .fn_animation .character.opened{top: 0px;}
-.grax_tm_intro_content{
+.RIFAT_tm_intro_hero .fn_animation .character{top: 15px;}
+.RIFAT_tm_intro_hero .fn_animation .character.opened{top: 0px;}
+.RIFAT_tm_intro_content{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.grax_tm_intro_content .title_holder{
+.RIFAT_tm_intro_content .title_holder{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	text-align: center;
 }
-.grax_tm_intro_content .title_holder h3{
+.RIFAT_tm_intro_content .title_holder h3{
 	font-size: 30px;
 	font-weight: 800;
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 10px;
 }
-.grax_tm_intro_content .demo_list{
+.RIFAT_tm_intro_content .demo_list{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -2201,18 +2201,18 @@ body.dark .grax_tm_settings .cursor li .svg,
 	padding-top: 100px;
 	margin-bottom: 70px;
 }
-.grax_tm_intro_content .demo_list ul{
+.RIFAT_tm_intro_content .demo_list ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.grax_tm_intro_content .demo_list ul li{
+.RIFAT_tm_intro_content .demo_list ul li{
 	margin: 0px 0px 50px 0px;
 	float: left;
 	width: 50%;
 	padding-left: 50px;
 	position: relative; 
 }
-.grax_tm_intro_content .demo_list ul li .list_inner{
+.RIFAT_tm_intro_content .demo_list ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -2223,17 +2223,17 @@ body.dark .grax_tm_settings .cursor li .svg,
 	top: 0px;
 	transform: translateZ(0);
 }
-.grax_tm_intro_content .demo_list ul li .list_inner:hover{
+.RIFAT_tm_intro_content .demo_list ul li .list_inner:hover{
 	top: -10px;
 }
-.grax_tm_intro_content .demo_list ul li .list_inner h3{
+.RIFAT_tm_intro_content .demo_list ul li .list_inner h3{
 	font-size: 20px; 
 	font-weight: 600;
 	padding-top: 20px;
 }
-.grax_tm_intro_content .demo_list ul li:last-child img{filter: blur(5px);}
-.grax_tm_intro_fixed_price .pricing-info,
-.grax_tm_intro_fixed_price .anim {text-decoration: none;
+.RIFAT_tm_intro_content .demo_list ul li:last-child img{filter: blur(5px);}
+.RIFAT_tm_intro_fixed_price .pricing-info,
+.RIFAT_tm_intro_fixed_price .anim {text-decoration: none;
 	color: #fff;
     font-family: "Montserrat";
     background-color: #e54b4b;
@@ -2289,32 +2289,32 @@ body.dark .grax_tm_settings .cursor li .svg,
     }
 }
 
-.grax_tm_intro_fixed_price .anim:nth-child(1) {
+.RIFAT_tm_intro_fixed_price .anim:nth-child(1) {
     -webkit-animation: myAnimPrice 2s infinite;
     animation: myAnimPrice 2s infinite
 }
 
-.grax_tm_intro_fixed_price .anim:nth-child(2) {
+.RIFAT_tm_intro_fixed_price .anim:nth-child(2) {
     -webkit-animation: myAnimPrice 2s infinite .3s;
     animation: myAnimPrice 2s infinite .3s
 }
 
-.grax_tm_intro_fixed_price .anim:nth-child(3) {
+.RIFAT_tm_intro_fixed_price .anim:nth-child(3) {
     -webkit-animation: myAnimPrice 2s infinite .6s;
     animation: myAnimPrice 2s infinite .6s
 }
 
 /*---------------------------------------------------*/
-/*	14) GRAX MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	14) RIFAT MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1400px) {
-	.grax_tm_modalbox_news .box_inner{width: 900px;}
+	.RIFAT_tm_modalbox_news .box_inner{width: 900px;}
 }
 @media (max-width: 1200px) {
-	.grax_tm_modalbox_news .box_inner{width: 100%;top: 0px;bottom: 0px;}
-	.grax_tm_modalbox_news .close{position: absolute;top: 20px;left: auto;right: 20px;margin-left: 0px;}
-	.grax_tm_modalbox_news .close .svg{color: #777;width: 25px;height: 25px;}
+	.RIFAT_tm_modalbox_news .box_inner{width: 100%;top: 0px;bottom: 0px;}
+	.RIFAT_tm_modalbox_news .close{position: absolute;top: 20px;left: auto;right: 20px;margin-left: 0px;}
+	.RIFAT_tm_modalbox_news .close .svg{color: #777;width: 25px;height: 25px;}
 }
 @media (max-width: 1040px) {
 	#preloader{display: none;}
@@ -2323,51 +2323,51 @@ body.dark .grax_tm_settings .cursor li .svg,
 	.cursor-inner.cursor-hover{display: none;}
 	.cursor-outer{display: none;}
 	.container{padding: 0px 20px;}
-	.grax_tm_topbar{display: none;}
-	.grax_tm_mobile_menu{display: block;}
-	.grax_tm_hero .name{font-size: 55px;}
-	.grax_tm_about .about_inner{display: block;}
-	.grax_tm_about .left{padding-right: 0px;width: 100%;margin-bottom: 40px;}
-	.grax_tm_about .right{padding-left: 0px;width: 100%;}
-	.grax_tm_portfolio ul{margin-left: -20px;}
-	.grax_tm_portfolio ul li{padding-left: 20px;margin-bottom: 20px;}
-	.grax_tm_news .news_list ul{margin-left: -30px;}
-	.grax_tm_news .news_list ul li{padding-left: 30px;margin-bottom: 30px;}
+	.RIFAT_tm_topbar{display: none;}
+	.RIFAT_tm_mobile_menu{display: block;}
+	.RIFAT_tm_hero .name{font-size: 55px;}
+	.RIFAT_tm_about .about_inner{display: block;}
+	.RIFAT_tm_about .left{padding-right: 0px;width: 100%;margin-bottom: 40px;}
+	.RIFAT_tm_about .right{padding-left: 0px;width: 100%;}
+	.RIFAT_tm_portfolio ul{margin-left: -20px;}
+	.RIFAT_tm_portfolio ul li{padding-left: 20px;margin-bottom: 20px;}
+	.RIFAT_tm_news .news_list ul{margin-left: -30px;}
+	.RIFAT_tm_news .news_list ul li{padding-left: 30px;margin-bottom: 30px;}
 }
 @media (max-width: 768px) {
-	.grax_tm_title_holder h3{letter-spacing: 5px;}
-	.grax_tm_hero .name{font-size: 45px;margin-bottom: 5px;}
-	.grax_tm_hero .job{font-size: 17px;}
-	.grax_tm_about .right .list ul{margin: 0px;}
-	.grax_tm_about .right .list ul li{width: 100%;padding-left: 0px;}
-	.grax_tm_portfolio ul li{width: 50%;}
-	.grax_tm_progress_part .part_inner{display: block;}
-	.grax_tm_progress_part .left{width: 100%;padding-right: 0px;float: left;margin-bottom: 20px;}
-	.grax_tm_progress_part .right{width: 100%;padding-left: 0px;}
-	.grax_tm_talk .talk_inner{display: block;}
-	.grax_tm_talk .text{padding-right: 0px;margin-bottom: 30px;}
-	.grax_tm_news .news_list ul li{width: 50%;}
-	.grax_tm_news .news_list ul li .details .date span{margin-left: 0px;}
-	.grax_tm_news .news_list ul li .details .date span:before{display: none;}
-	.grax_tm_contact .contact_inner{display: block;}
-	.grax_tm_contact .left{width: 100%;margin-bottom: 20px;float: left;}
-	.grax_tm_contact .right{width: 100%;padding-left: 0px;}
-	.grax_tm_copyright .copyright_inner{display: block;}
-	.grax_tm_copyright .logo{margin-bottom: 17px;}
-	.grax_tm_copyright .social{margin-bottom: 10px;}
-	.grax_tm_modalbox_news .details .title{font-size: 25px;}
-	.grax_tm_modalbox_news .description_wrap{padding: 20px;}
+	.RIFAT_tm_title_holder h3{letter-spacing: 5px;}
+	.RIFAT_tm_hero .name{font-size: 45px;margin-bottom: 5px;}
+	.RIFAT_tm_hero .job{font-size: 17px;}
+	.RIFAT_tm_about .right .list ul{margin: 0px;}
+	.RIFAT_tm_about .right .list ul li{width: 100%;padding-left: 0px;}
+	.RIFAT_tm_portfolio ul li{width: 50%;}
+	.RIFAT_tm_progress_part .part_inner{display: block;}
+	.RIFAT_tm_progress_part .left{width: 100%;padding-right: 0px;float: left;margin-bottom: 20px;}
+	.RIFAT_tm_progress_part .right{width: 100%;padding-left: 0px;}
+	.RIFAT_tm_talk .talk_inner{display: block;}
+	.RIFAT_tm_talk .text{padding-right: 0px;margin-bottom: 30px;}
+	.RIFAT_tm_news .news_list ul li{width: 50%;}
+	.RIFAT_tm_news .news_list ul li .details .date span{margin-left: 0px;}
+	.RIFAT_tm_news .news_list ul li .details .date span:before{display: none;}
+	.RIFAT_tm_contact .contact_inner{display: block;}
+	.RIFAT_tm_contact .left{width: 100%;margin-bottom: 20px;float: left;}
+	.RIFAT_tm_contact .right{width: 100%;padding-left: 0px;}
+	.RIFAT_tm_copyright .copyright_inner{display: block;}
+	.RIFAT_tm_copyright .logo{margin-bottom: 17px;}
+	.RIFAT_tm_copyright .social{margin-bottom: 10px;}
+	.RIFAT_tm_modalbox_news .details .title{font-size: 25px;}
+	.RIFAT_tm_modalbox_news .description_wrap{padding: 20px;}
 	
-	.grax_tm_intro_fixed_price{display: none;}
-	.grax_tm_intro_content .title_holder h3{letter-spacing: 4px;}
-	.grax_tm_intro_content .demo_list ul{margin: 0px;}
-	.grax_tm_intro_content .demo_list ul li{width: 100%;padding-left: 0px;}
+	.RIFAT_tm_intro_fixed_price{display: none;}
+	.RIFAT_tm_intro_content .title_holder h3{letter-spacing: 4px;}
+	.RIFAT_tm_intro_content .demo_list ul{margin: 0px;}
+	.RIFAT_tm_intro_content .demo_list ul li{width: 100%;padding-left: 0px;}
 }
 @media (max-width: 480px) {
-	.grax_tm_hero .name{font-size: 30px;}
-	.grax_tm_hero .job{font-size: 15px;}
-	.grax_tm_portfolio ul{margin: 0px;}
-	.grax_tm_portfolio ul li{width: 100%;padding-left: 0px;}
-	.grax_tm_news .news_list ul{margin: 0px;}
-	.grax_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
+	.RIFAT_tm_hero .name{font-size: 30px;}
+	.RIFAT_tm_hero .job{font-size: 15px;}
+	.RIFAT_tm_portfolio ul{margin: 0px;}
+	.RIFAT_tm_portfolio ul li{width: 100%;padding-left: 0px;}
+	.RIFAT_tm_news .news_list ul{margin: 0px;}
+	.RIFAT_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
 }

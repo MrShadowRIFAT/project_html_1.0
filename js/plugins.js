@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Marketify
- * Author: Marketify
+ * Copyright (c) 2022 RIFAT Web Solutions
+ * Author: RIFAT Web Solutions
  * This file is made for CURRENT TEMPLATE
 */
 
